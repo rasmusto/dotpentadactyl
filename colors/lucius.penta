@@ -36,9 +36,9 @@ hi ErrorMsg             color: #ffffff; background: red; font-weight: bold;
 
 "Hint section
 "hi Hint                 font-family: DejaVu Sans Mono; font-size: 10px; font-weight: bold; color: #f6e9e9; background-color: red; border-color: ButtonShadow; border-width: 0px; border-style: solid; padding 0px 1px 0px 1px;
-hi Hint               	font-family: DejaVu Sans Mono; font-size: 11px; font-weight: bold; color: white !important; background-color: rgba(0, 0, 0, 0.6) !important; border: solid 1px LightGray !important;
+hi Hint               	font-family: DejaVu Sans Mono; font-size: 11px; font-weight: bold; color: #e0e0e0 !important; background-color: #202020 !important; border: solid 1px LightGray !important;
 hi Hint::after          content: attr(number);
-hi HintActive           background: blue !important; color: #ffffff !important;
+hi HintActive           background-color: #e0e0e0 !important; color: #202020 !important;
 hi HintElem             background-color: inherit !important; "#ffffff !important; "font-color: #ffffff  !important;
 hi HintImage            opacity: .5;
 
