@@ -5,3 +5,4 @@ set ds=g
 set editor='/usr/local/bin/mvim -f'
 set titlestring=Pentadactyl
 autocmd LocationChange .* js modes.passAllKeys = /(rememberthemilk\.com|mail\.google\.com|google.com\/(reader|calendar)|twitter\.com)/.test(buffer.URL)
+colo lucius

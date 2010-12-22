@@ -1,23 +1,24 @@
 " ==Pentadactyl_Color_Scheme==
-" name: Oddity
-" ==Oddity_Colorscheme_Settings==
+" name: Lucius
+" ==Lucius_Colorscheme_Settings==
 
 "StatusLine settings
 hi StatusLine           font-family: DejaVu Sans Mono !important; color: #333333 !important; background-color: white !important; font-size: 9pt  !important;
-hi StatusLineBroken     font-family: DejaVu Sans Mono !important; color: #000000  !important; background: #afafff  !important; font-size: 9pt  !important;
-hi StatusLineSecure     font-family: DejaVu Sans Mono !important; color: #000000  !important; background: #afffaf  !important; font-size: 9pt  !important;
+hi StatusLineBroken     font-family: DejaVu Sans Mono !important; color: #202020  !important; background: #93d6a9  !important; font-size: 9pt  !important;
+hi StatusLineSecure     font-family: DejaVu Sans Mono !important; color: #202020  !important; background: #93d6a9  !important; font-size: 9pt  !important;
 
 "CmdLine settings excluding Gradient
-hi Normal               font-family: DejaVu Sans Mono !important; color: #e0e0e0; background: #202020;
+hi Normal               font-family: DejaVu Sans Mono !important; color: #e0e0e0; background: #202020; font-size: 9pt !important;
 hi CmdLine              font-family: DejaVu Sans Mono !important; background: #202020; color: #e0e0e0; font-size: 9pt !important;
 hi CompDesc             color: #c6c6c6; width: 50%; font-size: 9pt;
 hi CompIcon             width: 16px; min-width: 16px; display: inline-block; margin-right: .5ex;
 hi CompItem[selected]   background: #202020; color: #e0e0e0; 
+hi CompTitleSep         background: #8cd0d3; color: #8cd0d3;
 hi CompLess             text-align: center; height: 0; line-height: .5ex; padding-top: 1ex;
 hi CompMore             text-align: center; height: .5ex; line-height: .5ex; margin-bottom: -.5ex;
 hi CompMsg              font-style: italic; margin-left: 16px;
 hi CompResult           width: 45%; overflow: hidden;font-size: 9pt; font-family: DejaVu Sans Mono; font-weight: normal;
-hi CompTitle            color: #e0e0e0; background: #202020; font-weight: bold;
+hi CompTitle            color: #e0e0e0; background: #202020;
 hi CompTitle>*          padding: 0 .5ex;
 hi Filter               font-weight: bold; color: #e0e0e0;
 
