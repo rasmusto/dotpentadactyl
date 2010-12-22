@@ -3,9 +3,9 @@
 " ==Lucius_Colorscheme_Settings==
 
 "StatusLine settings
-hi StatusLine           font-family: DejaVu Sans Mono !important; color: #333333 !important; background-color: white !important; font-size: 9pt  !important;
-hi StatusLineBroken     font-family: DejaVu Sans Mono !important; color: #202020  !important; background: #93d6a9  !important; font-size: 9pt  !important;
-hi StatusLineSecure     font-family: DejaVu Sans Mono !important; color: #202020  !important; background: #93d6a9  !important; font-size: 9pt  !important;
+hi StatusLine           font-family: DejaVu Sans Mono !important; color: #202020 !important; background-color: white !important; font-size: 9pt  !important;
+hi StatusLineBroken     font-family: DejaVu Sans Mono !important; color: #202020 !important; background-color: white !important; font-size: 9pt  !important;
+hi StatusLineSecure     font-family: DejaVu Sans Mono !important; color: #202020 !important; background-color: white !important; font-size: 9pt  !important;
 
 "CmdLine settings excluding Gradient
 hi Normal               font-family: DejaVu Sans Mono !important; color: #e0e0e0; background: #202020; font-size: 9pt !important;
