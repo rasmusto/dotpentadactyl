@@ -6,8 +6,5 @@ set editor='/usr/local/bin/mvim -f'
 set hk='asdfjkl;'
 set sh='/usr/local/bin/zsh'
 set titlestring=Pentadactyl
-" autocmd LocationChange '(rememberthemilk\.com|mail\.google\.com|google.com\/(reader|calendar)|twitter\.com)' -js modes.set(modes.PASS_THROUGH)
-set pk+='https+://mail\.google\.com*':gistdacbkl*nrujp/?y!f<enter>[]{}z_
-set pk+='https+://twitter\.com*':frtmn<enter>?jk<space>/.ghpfu
-set pk+='https+://www\.google\.com/reader*'jk<space>npxoghasutfcem12/=-v
+autocmd LocationChange '(rememberthemilk\.com|mail\.google\.com|google.com\/(reader|calendar)|twitter\.com)' -js modes.set(modes.PASS_THROUGH)
 colo lucius
