@@ -3,6 +3,7 @@ set go-=T
 set cpt=sl
 set ds=g
 set editor='/usr/local/bin/mvim -f'
+set nosf
 set titlestring=Pentadactyl
-autocmd LocationChange .* js modes.passAllKeys = /(rememberthemilk\.com|mail\.google\.com|google.com\/(reader|calendar)|twitter\.com)/.test(buffer.URL)
+autocmd LocationChange '(rememberthemilk\.com|mail\.google\.com|google.com\/(reader|calendar)|twitter\.com)' -js modes.set(modes.PASS_THROUGH)
 colo lucius
