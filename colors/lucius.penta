@@ -9,10 +9,10 @@ hi StatusLineSecure     font-family: DejaVu Sans Mono !important; color: #202020
 
 "CmdLine settings excluding Gradient
 hi Normal               font-family: DejaVu Sans Mono !important; color: #e0e0e0; background: #202020; font-size: 9pt !important;
-hi CmdLine              font-family: DejaVu Sans Mono !important; background: #202020; color: #e0e0e0; font-size: 9pt !important;
-hi CompDesc             color: #c6c6c6; width: 50%; font-size: 9pt;
+hi CmdLine              font-family: DejaVu Sans Mono !important; color: #e0e0e0; background: #202020; font-size: 9pt !important;
+hi CompDesc             color: #e0e0e0; width: 50%; font-size: 9pt;
+hi CompItem[selected]   background: #666666; color: #e0e0e0; 
 hi CompIcon             width: 16px; min-width: 16px; display: inline-block; margin-right: .5ex;
-hi CompItem[selected]   background: #202020; color: #e0e0e0; 
 hi CompTitleSep         background: #8cd0d3; color: #8cd0d3;
 hi CompLess             text-align: center; height: 0; line-height: .5ex; padding-top: 1ex;
 hi CompMore             text-align: center; height: .5ex; line-height: .5ex; margin-bottom: -.5ex;
