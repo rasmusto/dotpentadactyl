@@ -1,4 +1,4 @@
-set stal=1
+set stal=multitab
 set go-=T
 set cpt=sl
 set ds=g
@@ -6,5 +6,6 @@ set editor='/usr/local/bin/mvim -f'
 set hk='asdfjkl;'
 set sh='/usr/local/bin/zsh'
 set titlestring=Pentadactyl
+set nosf
 autocmd LocationChange '(rememberthemilk\.com|mail\.google\.com|google.com\/(reader|calendar)|twitter\.com)' -js modes.set(modes.PASS_THROUGH)
 colo lucius
