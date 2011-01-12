@@ -9,7 +9,7 @@ hi StatusLineSecure     font-family: DejaVu Sans Mono !important; color: #202020
 
 "CmdLine settings excluding Gradient
 hi Normal               font-family: DejaVu Sans Mono !important; color: #e0e0e0; background: #202020; font-size: 9pt !important;
-hi CmdLine              font-family: DejaVu Sans Mono !important; color: #e0e0e0; background: #202020; font-size: 9pt !important;
+hi CmdLine              font-family: DejaVu Sans Mono !important; color: #202020; background: white; font-size: 9pt !important;
 hi CompDesc             color: #e0e0e0; width: 50%; font-size: 9pt;
 hi CompItem[selected]   background: #666666; color: #e0e0e0; 
 hi CompIcon             width: 16px; min-width: 16px; display: inline-block; margin-right: .5ex;
@@ -19,7 +19,7 @@ hi CompMore             text-align: center; height: .5ex; line-height: .5ex; mar
 hi CompMsg              font-style: italic; margin-left: 16px;
 hi CompResult           width: 45%; overflow: hidden;font-size: 9pt; font-family: DejaVu Sans Mono; font-weight: normal;
 hi CompTitle            color: #e0e0e0; background: #202020;
-hi CompTitle>*          padding: 0 .5ex;
+hi CompTitle>*          padding: 0 .5ex; color: white !important;
 hi Filter               font-weight: bold; color: #e0e0e0;
 
 "When using tab complete in CmdLine, line separating Title from function and description
