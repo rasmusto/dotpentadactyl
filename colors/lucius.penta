@@ -4,6 +4,7 @@
 
 "StatusLine settings
 hi StatusLine           font-family: DejaVu Sans Mono !important; color: #202020 !important; background-color: white !important; font-size: 9pt  !important;
+hi StatusLineNormal     font-family: DejaVu Sans Mono !important; color: #202020 !important; background-color: white !important; font-size: 9pt  !important;
 hi StatusLineBroken     font-family: DejaVu Sans Mono !important; color: #202020 !important; background-color: white !important; font-size: 9pt  !important;
 hi StatusLineSecure     font-family: DejaVu Sans Mono !important; color: #202020 !important; background-color: white !important; font-size: 9pt  !important;
 
@@ -31,7 +32,8 @@ hi GradientRight        background-color: #222222;
 hi FrameIndicator       background-color: #222222; opacity: 0.5; z-index: 999; position: fixed; top: 0; bottom: 0; left: 0; right: 0;
 
 hi Bell                 border: 0 none; background-color: #222222;
-hi ErrorMsg             color: #ffffff; background: red; font-weight: bold;
+hi ErrorMsg             font-family: DejaVu Sans Mono; color: #ffffff; background: red; font-weight: bold; font-size: 9pt;
+hi Message              font-family: DejaVu Sans Mono; font-size: 9pt;
 
 
 "Hint section
