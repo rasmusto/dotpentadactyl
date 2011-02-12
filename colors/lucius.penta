@@ -38,20 +38,20 @@ hi Message              font-family: DejaVu Sans Mono; font-size: 9pt;
 
 "Hint section
 "hi Hint                 font-family: DejaVu Sans Mono; font-size: 10px; font-weight: bold; color: #f6e9e9; background-color: red; border-color: ButtonShadow; border-width: 0px; border-style: solid; padding 0px 1px 0px 1px;
-hi Hint               	font-family: DejaVu Sans Mono; font-size: 11px; font-weight: bold; color: #e0e0e0 !important; background-color: #202020 !important; border: solid 1px LightGray !important;
+hi Hint                 font-family: DejaVu Sans Mono; font-size: 11px; color: #e0e0e0 !important; background-color: #202020 !important; border: solid 1px LightGray !important; font-weight: bold;
 hi Hint::after          content: attr(number);
 hi HintActive           background-color: #e0e0e0 !important; color: #202020 !important;
 hi HintElem             background-color: inherit !important; "#ffffff !important; "font-color: #ffffff  !important;
 hi HintImage            opacity: .5;
 
 "Other important stuff
-hi InfoMsg              color: #afafaf; background: #222222;
+hi InfoMsg              font-family: DejaVu Sans Mono !important; color: #e0e0e0; background: #222222; font-size: 9pt;
 hi Message              white-space: normal; min-width: 100%; padding-left: 2em; text-indent: -2em; display: block;
-hi WarningMsg           color: red; background: #222222;
-hi ModeMsg              color: #afafaf; background: #222222; "CmdLine when Not in Use
-hi MoreMsg              color: #afafaf; background: #222222;
-hi NonText              color: lightblue; min-height: 16px; padding-left: 2px;
-hi Question             color: #ffffff; background: #222222; font-weight: bold;
+hi WarningMsg           font-family: DejaVu Sans Mono !important; color: red; background: #222222;
+hi ModeMsg              font-family: DejaVu Sans Mono !important; color: #e0e0e0; background: #222222; font-weight: normal; font-size: 9pt; "CmdLine when Not in Use
+hi MoreMsg              font-family: DejaVu Sans Mono !important; color: #e0e0e0; background: #222222;
+hi NonText              font-family: DejaVu Sans Mono !important; color: lightblue; min-height: 16px; padding-left: 2px;
+hi Question             font-family: DejaVu Sans Mono !important; color: #e0e0e0; background: #222222; font-weight: normal;
 hi Search               font-size: inherit; padding: 0; color: #222222; background-color: yellow; padding: 0;
 hi Function             color: lightgreen; background: #222222;
 hi Number               color: tan; background: #222222
