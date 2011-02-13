@@ -2,12 +2,6 @@
 " name: Lucius
 " ==Lucius_Colorscheme_Settings==
 
-"StatusLine settings
-hi StatusLine           font-family: DejaVu Sans Mono !important; color: #202020 !important; background-color: white !important; font-size: 9pt  !important;
-hi StatusLineNormal     font-family: DejaVu Sans Mono !important; color: #202020 !important; background-color: white !important; font-size: 9pt  !important;
-hi StatusLineBroken     font-family: DejaVu Sans Mono !important; color: #202020 !important; background-color: white !important; font-size: 9pt  !important;
-hi StatusLineSecure     font-family: DejaVu Sans Mono !important; color: #202020 !important; background-color: white !important; font-size: 9pt  !important;
-
 "CmdLine settings excluding Gradient
 hi Normal               font-family: DejaVu Sans Mono !important; color: #e0e0e0 !important; background: #202020 !important; font-size: 9pt !important;
 hi CmdLine              font-family: DejaVu Sans Mono !important; color: #202020; background: white; font-size: 9pt !important;
@@ -22,6 +16,12 @@ hi CompResult           width: 45%; overflow: hidden;font-size: 9pt; font-family
 hi CompTitle            color: #e0e0e0; background: #202020;
 hi CompTitle>*          padding: 0 .5ex; color: white !important;
 hi Filter               font-weight: bold; color: #e0e0e0;
+
+"StatusLine settings
+hi StatusLine           font-family: DejaVu Sans Mono !important; color: #202020 !important; background-color: white !important; font-size: 9pt  !important;
+hi StatusLineNormal     font-family: DejaVu Sans Mono !important; color: #202020 !important; background-color: white !important; font-size: 9pt  !important;
+hi StatusLineBroken     font-family: DejaVu Sans Mono !important; color: #202020 !important; background-color: white !important; font-size: 9pt  !important;
+hi StatusLineSecure     font-family: DejaVu Sans Mono !important; color: #202020 !important; background-color: white !important; font-size: 9pt  !important;
 
 "When using tab complete in CmdLine, line separating Title from function and description
 hi Gradient             height: 1px; margin-bottom: -1px; margin-top: -1px;
