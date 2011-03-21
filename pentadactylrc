@@ -6,7 +6,7 @@ set editor='/usr/local/bin/mvim -f'
 set hk='asdfjkl;'
 set sh='/usr/local/bin/zsh'
 set titlestring=Pentadactyl
-set nosf
+"set nosf
 noremap j 5j
 noremap k 5k
 noremap l 5l
