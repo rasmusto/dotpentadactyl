@@ -1,5 +1,4 @@
 set stal=multitab
-set go-=T
 set cpt=sl
 set ds=ddg
 set editor='/usr/local/bin/mvim -f'
