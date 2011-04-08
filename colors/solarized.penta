@@ -45,7 +45,7 @@ hi HintImage            opacity: .5;
 hi InfoMsg              font-family: DejaVu Sans Mono !important; color: #93a1a1; background: #002b36; font-size: 9pt;
 hi Message              white-space: normal; min-width: 100%; padding-left: 2em; text-indent: -2em; display: block;
 hi WarningMsg           font-family: DejaVu Sans Mono !important; color: #d33682; background: #002b36;
-hi ModeMsg              font-family: DejaVu Sans Mono !important; color: #93a1a1; background: #002b36; font-weight: normal; font-size: 9pt; "CmdLine when Not in Use
+hi ModeMsg              font-family: DejaVu Sans Mono !important; color: #93a1a1; background: #002b36; font-weight: normal; font-size: 9pt; font-weight: normal;
 hi MoreMsg              font-family: DejaVu Sans Mono !important; color: #93a1a1; background: #002b36;
 hi NonText              font-family: DejaVu Sans Mono !important; color: lightblue; min-height: 16px; padding-left: 2px;
 hi Question             font-family: DejaVu Sans Mono !important; color: #93a1a1; background: #002b36; font-weight: normal;

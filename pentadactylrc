@@ -11,5 +11,5 @@ noremap k 5k
 noremap l 5l
 noremap h 5h
 autocmd LocationChange '(duckduckgo.com|rememberthemilk\.com|mail\.google\.com|google.com\/(reader|calendar)|twitter\.com)' -js modes.set(modes.PASS_THROUGH)
-colo solarized
+colo lucius
 map <leader>u :set fullscreen!<cr>
