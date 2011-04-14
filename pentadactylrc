@@ -5,11 +5,11 @@ set editor='/usr/local/bin/mvim -f'
 set hk='asdfjkl;'
 set sh='/usr/local/bin/zsh'
 set titlestring=Pentadactyl
-"set nosf
 noremap j 5j
 noremap k 5k
 noremap l 5l
 noremap h 5h
+set sf=google.com:laissez-faire,!google.com:moderate
 autocmd LocationChange '(dropbox.com|duckduckgo.com|rememberthemilk.com|mail.google.com|google.com/(reader|calendar)|twitter.com)' -js modes.set(modes.PASS_THROUGH)
 colo lucius
 map <leader>u :set fullscreen!<cr>
