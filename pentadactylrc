@@ -1,9 +1,9 @@
 set stal=always
 set cpt=sl
 set ds=ddg
-set editor='/usr/local/bin/mvim -f'
+set editor='mvim -f'
 set hk='asdfjkl;'
-set sh='/usr/local/bin/zsh'
+set sh='zsh'
 set titlestring=Pentadactyl
 noremap j 5j
 noremap k 5k
