@@ -1,3 +1,4 @@
+set go+=T
 set stal=always
 set cpt=sl
 set ds=ddg
